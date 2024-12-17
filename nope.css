@@ -1,0 +1,38 @@
+body {
+    background-size: cover;
+    color: black;
+    font-family: 'Monotype Corsiva';
+    text-align: center;
+    padding: 50px;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-family:'Monotype Corsiva';
+}
+image-links img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+}
+.back-button {
+    display: inline-block;
+    margin-bottom:  20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #cc0000;
+}

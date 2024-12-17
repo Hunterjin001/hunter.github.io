@@ -1,0 +1,71 @@
+body {
+    background-image:url(sad.jpg);
+    background-size: cover;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    font-family:'Monotype Corsiva';
+}
+
+p {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-family:'Monotype Corsiva';
+}
+image-links img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+}
+
+.image-container {
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom:  20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #cc0000;
+}
+
+button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-family:'Monotype Corsiva';
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
